@@ -1,6 +1,6 @@
 import "./App.css";
 import Home from "./pages/Home";
-import { Routes, Route } from 'react-router'
+import { Routes, Route } from 'react-router-dom'
 import TruthTable from "./pages/TruthTable";
 
 function App() {
