@@ -1,5 +1,6 @@
 import React from "react";
-import { Link } from "react-router";
+// import { Link } from "react-router";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
@@ -10,7 +11,9 @@ const Navbar = () => {
             <li className="hover:cursor-pointer">Home</li>
           </Link>
           <div className="flex justify-between">
+            <Link to = "/basic-set-operations">
             <li className="hover:cursor-pointer mr-4">Set Operations</li>
+            </Link>
             <Link to="/truth-table">
               <li className="hover:cursor-pointer mr-4">Truth Tables</li>
             </Link>
