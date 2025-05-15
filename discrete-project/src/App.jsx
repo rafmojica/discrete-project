@@ -9,6 +9,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/truth-table" element={<TruthTable />} />
+        <Route path="/basic-set-operations" element = {<SetOperations/>} />
       </Routes>
     </>
   );
