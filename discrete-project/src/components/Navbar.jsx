@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 import { Link } from "react-router";
+//added from GPT to resolve npm vite issue
+// import { Link } from "react-router-dom";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -64,7 +66,7 @@ const Navbar = () => {
         >
           <li>
             <Link
-              to="/set-operations"
+              to="/basic-set-operations"
               className="block hover:text-blue-200 transition-colors"
               onClick={() => setIsOpen(false)}
             >
