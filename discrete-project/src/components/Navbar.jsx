@@ -1,6 +1,7 @@
 import React from "react";
-// import { Link } from "react-router";
-import { Link } from "react-router-dom";
+import { Link } from "react-router";
+//added from GPT to resolve npm vite issue
+// import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (

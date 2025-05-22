@@ -1,7 +1,7 @@
 import { createRoot } from "react-dom/client";
 import App from "./App.jsx";
 import { BrowserRouter as Router } from "react-router";
-//added based on GPT due to routing issues
+//added from GPT to resolve npm vite issue
 // import { BrowserRouter as Router } from "react-router-dom";
 
 
