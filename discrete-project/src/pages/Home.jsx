@@ -23,7 +23,7 @@ const Home = () => (
             Truth Tables
           </Link>
           <Link
-            to="/basic-set-operations"
+            to="/set-operations"
             className="bg-white text-blue-600 font-semibold px-6 py-3 rounded-md hover:bg-gray-100 transition"
           >
             Set Operations
@@ -45,7 +45,7 @@ const Home = () => (
         </Link>
 
         <Link
-          to="/basic-set-operations"
+          to="/set-operations"
           className="block p-6 bg-white rounded-xl shadow hover:shadow-lg transition"
         >
           <h3 className="text-xl font-semibold mb-2">Set Operations</h3>
