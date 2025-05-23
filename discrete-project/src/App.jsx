@@ -5,6 +5,8 @@ import Home from "./pages/Home";
 import { Routes, Route} from 'react-router'
 import TruthTable from "./pages/TruthTable";
 import SetOperations from "./pages/SetOperations";
+import PrimeFactorization from "./pages/PrimeFactorization";
+
 
 function App() {
   return (
@@ -13,6 +15,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/truth-table" element={<TruthTable />} />
         <Route path="/basic-set-operations" element = {<SetOperations/>} />
+        <Route path="/prime-factorization" element={<PrimeFactorization />}/>
       </Routes>
     </>
   );
