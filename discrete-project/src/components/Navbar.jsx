@@ -14,7 +14,11 @@ const Navbar = () => {
             <Link to="/truth-table">
               <li className="hover:cursor-pointer mr-4">Truth Tables</li>
             </Link>
-            <li className="hover:cursor-pointer">Prime Factorization</li>
+            <Link to="/prime-factorization">
+              <li className="hover:cursor-pointer mr-4">Prime Factorization</li>
+            </Link>
+            
+
           </div>
         </ul>
       </nav>
