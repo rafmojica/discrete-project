@@ -2,7 +2,7 @@ import "./App.css";
 import Home from "./pages/Home";
 // added from GPT to resolve npm vite issue
 // import { Routes, Route } from 'react-router-dom'
-import { Routes, Route} from 'react-router'
+import { Routes, Route } from 'react-router'
 import TruthTable from "./pages/TruthTable";
 import SetOperations from "./pages/SetOperations";
 import PrimeFactorization from "./pages/PrimeFactorization";
